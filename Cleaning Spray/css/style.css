@@ -1,3 +1,54 @@
-body {
-	background-color: gray;
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	background: url('../img/SVG/background.svg') no-repeat;
+	background-size: contain;
+	background-origin: content-box;
+}
+
+.nav-container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav h1{
+	font-size: 2rem;
+	color: white;
+}
+
+nav a{
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: black;
+	margin: 0 2rem;
+}
+
+.main-title{
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	height: 90vh;
+}
+
+.products{
+	background: white;
+	height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.products h1{
+	padding: 2rem;
 }
